@@ -7,7 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class FirstJenkinsApplication {
 
     public static void main(String[] args) {
-        exit
         SpringApplication.run(FirstJenkinsApplication.class, args);
     }
 
