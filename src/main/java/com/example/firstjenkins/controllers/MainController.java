@@ -19,4 +19,16 @@ public class MainController {
     public int sum(int a, int b){
         return a+b;
     }
+
+    public int sub(int a, int b){
+        return a-b;
+    }
+
+    public int molt(int a, int b){
+        return a*b;
+    }
+
+    public double div(int a, int b){
+        return (double) a/ (double) b;
+    }
 }
