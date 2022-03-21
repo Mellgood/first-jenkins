@@ -47,4 +47,11 @@
         </plugins>
     </build>
 
+    <distributionManagement>
+        <snapshotRepository>
+            <id>demo-devops-snapshot</id>
+            <url>http://192.168.56.12:8081/repository/jenkins-repo-snap/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
 </project>
